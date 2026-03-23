@@ -1,0 +1,93 @@
+Ksu, [1/17/2026 2:02 PM]
+Cat Mood Calendar
+
+The Cat Mood Calendar is a daily tracking tool that lets owners quickly log their cat's emotional state throughout the day. Each day in the calendar reflects the cat's "inner weather" — from sleepy and relaxed to "don't come near me" mode.
+
+Instead of long descriptions, users use simple icons, colors, or cat face emojis that match the mood. This creates a visual overview of changes over time, helping owners spot patterns: when the cat is extra affectionate, when it's grumpy, or when it needs quiet time.
+
+The calendar can be filled in three ways (user chooses the preferred style):
+
+- One mood per day (quickest option)
+- Main mood of the day (most popular)
+- Three times a day (morning / afternoon / evening) for more detailed tracking
+
+This feature is not just a useful observation tool — it becomes a cozy daily ritual that deepens understanding of the cat's personality and boosts the owner's mood and awareness.
+
+ How it integrates perfectly with the Yoga with Cat app
+
+- After finishing a yoga session (or at any time), the app gently reminds: "How was your cat's mood today? 🐾"
+- The calendar shows how regular yoga sessions affect the cat's overall emotional balance (fewer red/grumpy days = visible progress).
+- It turns passive observation into an emotional game: consistent logging unlocks badges, new cat avatars, calming sounds, or bonus short meditations.
+
+ Recommended set of 10 moods + icons (universal and easy to illustrate)
+
+ Gamification & Yoga Integration Ideas
+
+- 7 days in a row → badge "Cat Soul Observer"
+- 30 days streak → unlock new custom yoga cat avatar
+- 3+ "Affectionate" or "Super Happy" days in a row → bonus 5-minute purring meditation
+- Monthly mood graph: line chart or mood cloud showing how yoga reduces "red" and "grey" days
+- Weekly insight notification: "This week your cat was 42% more affectionate thanks to our Shavasana sessions!"
+
+Design & UX Notes for the App
+
+- Calendar view: monthly grid with large round cat icons per day
+- Color gradient: from cool/dark (stress) → warm/bright (harmony)
+
+Ksu, [1/17/2026 2:16 PM]
+Signs of Stress in Cats: A Detailed Overview
+
+Stress in cats can manifest in subtle or dramatic ways, often going unnoticed until it escalates. Recognizing these signs early is crucial for maintaining your cat's emotional and physical health. Based on reliable veterinary sources, stress triggers a "fight or flight" response, which can lead to behavioral, physical, and long-term changes. Below is a comprehensive breakdown, categorized for clarity, with references to peer-reviewed studies and expert guidelines.
+
+Behavioral Signs
+These are often the first noticeable indicators, as cats may alter their daily routines or interactions.
+- Hiding or withdrawal: Cats may spend more time under furniture, in boxes, or high places, avoiding social contact. This inhibits normal behaviors like playing or exploring. 
+- Increased vocalization: Excessive meowing, yowling, or growling without apparent reason, especially during quiet times. 
+- Aggression or redirected aggression: Hissing, swatting, biting, or attacking unrelated targets (e.g., another pet or owner) due to heightened arousal. 
+- Hyperactivity or restlessness: Sudden bursts of energy, pacing, or "zoomies," particularly at night, as a way to release tension.
+- Changes in activity level: Either excessive lethargy (reduced play) or overactivity, depending on the cat's personality. 
+- Destructive behaviors: Excessive scratching, chewing, or digging, often as a coping mechanism.
+
+Physical and Physiological Signs
+These involve bodily changes that signal the cat's internal distress.
+- Dilated pupils: Wide-open eyes, even in well-lit rooms, indicating heightened alertness. 
+- Flattened ears: Ears pressed back or sideways ("airplane ears"), a defensive posture. 
+- Tail position and movement: Tucked tail, rapid lashing, or held stiffly upright like a bottle brush. 
+- Trembling or skin rippling: Shaking body or twitching skin, often with rapid breathing. 
+- Drooling or salivation: Excessive saliva or foaming at the mouth, linked to nausea or fear. 
+- Rapid or open-mouth breathing: Panting, which is unusual for cats and signals severe distress. 
+
+Hygiene and Litter Box Signs
+Stress often disrupts routine habits.
+- Over-grooming: Licking one area excessively, leading to bald spots or sores (psychogenic alopecia). 
+- Under-grooming: Neglecting self-care, resulting in greasy or matted fur.
+- Inappropriate elimination: Urinating or defecating outside the litter box, often with blood or strong odor (stress cystitis). 
+
+ Chronic Stress Signs
+Long-term stress shows as ongoing changes.
+- Appetite changes: Loss of interest in food or overeating, leading to weight fluctuations. 
+- Lethargy or depression: Reduced activity, excessive sleeping, or social withdrawal. 
+- Recurrent health issues: Frequent skin problems, allergies, or infections due to weakened immunity. 
+
+Consequences of Stress in Cats: What It Leads To
+
+Untreated stress can have cascading effects, impacting physical health, behavior, and lifespan. Chronic stress is particularly harmful, as it keeps the body in a prolonged "fight or flight" state.
+
+ Short-Term Consequences
+- Immediate fear responses: Panic leading to escape attempts, injuries from jumping or running. 
+- Digestive upset: Vomiting, diarrhea, or constipation from sudden adrenaline surges. 
+- Appetite suppression: Temporary refusal of food, risking dehydration. 
+
+Long-Term / Chronic Consequences
+- Urinary tract issues: Feline idiopathic cystitis (FIC), recurrent UTIs, or urinary blockage (life-threatening in males).  
+- Gastrointestinal problems: Chronic vomiting, diarrhea, or reduced intake leading to malnutrition. 
+- Weakened immune system: Increased susceptibility to viruses (e.g., herpesvirus, calicivirus) and infections. 
+- Skin and grooming disorders: Psychogenic alopecia (balding from over-licking), dermatitis, or secondary infections. 
+- Behavioral deterioration: Persistent aggression, spraying, or social withdrawal, potentially leading to rehoming. 
+- Reduced lifespan and quality of life: Chronic conditions shorten life; anxiety disorders mimic depression.
+
+Ksu, [1/17/2026 2:16 PM]
+Impact on Owner-Cat Relationship
+- Vicious cycle: Owner stress amplifies cat stress, leading to mutual frustration and behavioral issues. 
+
+Monitoring via tools like your app's mood calendar can prevent escalation. Always consult a vet for persistent signs.

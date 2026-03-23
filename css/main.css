@@ -1,0 +1,106 @@
+:root {
+    /* Color Palette - Premium & Calming */
+    --color-bg-primary: #FFD9E2;
+    /* Distinct Pale Pink */
+    --color-bg-secondary: #FFF0F5;
+    /* Lighter Pink for contrast */
+
+    --color-text-primary: #795548;
+    /* Chocolate Brown (Lighter and warmer) */
+    --color-text-secondary: #8D6E63;
+    /* Cocoa */
+
+    --color-accent-human: #D7CCC8;
+    /* Caramel / Beige */
+    --color-accent-cat: #B0BEC5;
+    /* Blue Grey */
+    --color-accent-pink: #F8BBD0;
+    /* Soft Pink */
+
+    --color-primary-btn: #8D6E63;
+    /* Cocoa brown for buttons */
+    --color-primary-btn-text: #FFFFFF;
+
+    /* Spacing & Layout */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 1.5rem;
+    --spacing-lg: 2.5rem;
+    --spacing-xl: 4rem;
+
+    /* UI Elements */
+    --radius-card: 24px;
+    --radius-btn: 50px;
+    --shadow-soft: 0 10px 30px rgba(62, 39, 35, 0.05);
+    --shadow-hover: 0 15px 40px rgba(62, 39, 35, 0.1);
+
+    /* Typography */
+    --font-heading: 'Quicksand', sans-serif;
+    --font-body: 'Nunito', sans-serif;
+    --font-accent: 'Sacramento', cursive;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--color-bg-primary);
+    color: var(--color-text-primary);
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.6;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    color: var(--color-text-primary);
+}
+
+button {
+    cursor: pointer;
+    font-family: var(--font-body);
+    border: none;
+    outline: none;
+}
+
+.app-container {
+    max-width: 480px;
+    /* Mobile-first limit for app-like feel */
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: var(--color-bg-primary);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.02);
+}
+
+/* Utilities */
+.hidden {
+    display: none !important;
+}
+
+.fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
