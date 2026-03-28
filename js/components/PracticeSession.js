@@ -121,20 +121,34 @@ export function renderPractice(container) {
     function finishSession() {
         clearContainer(container);
         const winScreen = createElement('div', 'win-screen fade-in');
-        winScreen.innerHTML = '<h2>Namaste 🙏</h2><p>Your harmony with nature is restored.</p>';
+        winScreen.style.textAlign = 'center';
+        winScreen.style.padding = '2rem';
+        winScreen.style.display = 'flex';
+        winScreen.style.flexDirection = 'column';
+        winScreen.style.justifyContent = 'center';
+        winScreen.style.flex = '1'; // Fill the container height
+        
+        winScreen.innerHTML = '<h2>Namaste 🙏</h2><p style="margin-top: 10px;">Your harmony with nature is restored.</p>';
+        
         const homeBtn = createElement('button', 'btn-primary', 'Home');
         const logBtn = createElement('button', 'btn-secondary', 'Log Mood 🐾');
 
         homeBtn.onclick = () => renderDashboard(container);
         logBtn.onclick = () => renderTracker(container, { autoOpenToday: true });
 
-        const btnGroup = createElement('div', 'preview-actions'); // Re-using or making a flex container
+        const btnGroup = createElement('div', 'preview-actions');
         btnGroup.style.display = 'flex';
-        btnGroup.style.gap = '10px';
-        btnGroup.style.justifyContent = 'center';
+        btnGroup.style.flexDirection = 'column';
+        btnGroup.style.gap = '15px';
+        btnGroup.style.alignItems = 'stretch'; // Makes buttons equal width
+        btnGroup.style.marginTop = '2rem';
+        btnGroup.style.width = '100%';
+        btnGroup.style.maxWidth = '300px';
+        btnGroup.style.alignSelf = 'center';
 
-        btnGroup.appendChild(homeBtn);
+        // Order: Log Mood first, then Home
         btnGroup.appendChild(logBtn);
+        btnGroup.appendChild(homeBtn);
 
         winScreen.appendChild(btnGroup);
         container.appendChild(winScreen);
