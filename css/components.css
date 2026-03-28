@@ -198,25 +198,35 @@
 
 .practice-content {
     text-align: center;
-    padding: var(--spacing-md);
+    padding: var(--spacing-sm);
     display: flex;
     flex-direction: column;
-    gap: var(--spacing-md);
+    gap: var(--spacing-sm);
     align-items: center;
+    flex: 1;
+    min-height: 0;
 }
 
 .pose-image-placeholder {
     font-size: 6rem;
-    height: 40vh;
-    /* Increased from 150px */
-    min-height: 300px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: filter 1s;
     overflow: hidden;
-    /* Ensure zoomed images don't spill */
+    flex: 1;
+    min-height: 15vh;
+    position: relative;
+}
+
+.pose-image-placeholder img {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain !important;
 }
 
 .blurred {
@@ -247,7 +257,7 @@
     display: flex;
     align-items: center;
     gap: var(--spacing-lg);
-    margin-top: var(--spacing-md);
+    margin-top: auto;
 }
 
 .voice-instruction {
@@ -258,7 +268,7 @@
 }
 
 .cat-paws-decoration {
-    margin-top: var(--spacing-xl);
+    margin-top: 10px;
     font-size: 1.5rem;
     opacity: 0.5;
 }
