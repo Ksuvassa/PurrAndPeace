@@ -37,6 +37,7 @@ export function renderPractice(container) {
 
     // Logic
     let timerInterval;
+    let currentAudio = null;
 
     function startTimer(duration) {
         clearInterval(timerInterval);
@@ -61,6 +62,11 @@ export function renderPractice(container) {
 
     function cleanup() {
         clearInterval(timerInterval);
+        if (currentAudio) {
+            currentAudio.pause();
+            currentAudio.currentTime = 0;
+            currentAudio = null;
+        }
     }
 
     function loadPose(index) {
@@ -68,6 +74,12 @@ export function renderPractice(container) {
             cleanup();
             finishSession();
             return;
+        }
+
+        if (currentAudio) {
+            currentAudio.pause();
+            currentAudio.currentTime = 0;
+            currentAudio = null;
         }
 
         const pose = sessionPoses[index];
@@ -88,6 +100,17 @@ export function renderPractice(container) {
 
         // Timer
         startTimer(pose.duration || 60);
+
+        // Play audio for the pose
+        if (pose.audio) {
+            currentAudio = new Audio(pose.audio);
+            const playPromise = currentAudio.play();
+            if (playPromise !== undefined) {
+                playPromise.catch(error => {
+                    console.log("Audio autoplay prevented by browser:", error);
+                });
+            }
+        }
 
         // Random tip occasionally
         if (Math.random() > 0.7) {
