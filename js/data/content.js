@@ -1,25 +1,25 @@
 export const startSessionImage = 'assets/images/start-session.png';
 
 export const poses = [
-    { id: 1, name: "Mountain Pose", image: "assets/images/poses/pose-1.png", audio: "assets/audio/1.m4a", sanskrit: "Tadasana", description: "Stand tall like a mountain.", duration: 60 },
-    { id: 2, name: "Cat-Cow Pose", image: "assets/images/poses/pose-2.png", audio: "assets/audio/2.m4a", sanskrit: "Marjariasana-Bitilasana", description: "Flow between arching and rounding your back.", duration: 60 },
-    { id: 3, name: "Downward-Facing Dog", image: "assets/images/poses/pose-3.png", audio: "assets/audio/3.m4a", sanskrit: "Adho Mukha Svanasana", description: "Form an inverted V-shape.", duration: 60 },
+    { id: 1, name: "Mountain Pose", image: "assets/images/poses/pose-1.png", audio: "assets/audio/1.m4a", sanskrit: "Tadasana", description: "Stand tall like a mountain.", duration: 120 },
+    { id: 2, name: "Cat-Cow Pose", image: "assets/images/poses/pose-2.png", audio: "assets/audio/2.m4a", sanskrit: "Marjariasana-Bitilasana", description: "Flow between arching and rounding your back.", duration: 120 },
+    { id: 3, name: "Downward-Facing Dog", image: "assets/images/poses/pose-3.png", audio: "assets/audio/3.m4a", sanskrit: "Adho Mukha Svanasana", description: "Form an inverted V-shape.", duration: 120 },
     { id: 4, name: "Child's Pose", image: "assets/images/poses/pose-4.png", audio: "assets/audio/4.m4a", sanskrit: "Balasana", description: "Rest your hips back on your heels.", duration: 120 },
-    { id: 5, name: "Warrior I", image: "assets/images/poses/pose-5.png", audio: "assets/audio/5.m4a", sanskrit: "Virabhadrasana I", description: "High lunge with arms raised.", duration: 60 },
-    { id: 6, name: "Warrior II", image: "assets/images/poses/pose-6.png", audio: "assets/audio/6.m4a", sanskrit: "Virabhadrasana II", description: "Wide stance, arms parallel to floor.", duration: 60 },
-    { id: 7, name: "Tree Pose", image: "assets/images/poses/pose-7.png", audio: "assets/audio/7.m4a", sanskrit: "Vrksasana", description: "Balance on one leg.", duration: 60 },
-    { id: 8, name: "Bridge Pose", image: "assets/images/poses/pose-8.png", audio: "assets/audio/8.m4a", sanskrit: "Setu Bandhasana", description: "Lift hips while lying on back.", duration: 60 },
-    { id: 9, name: "Cobra Pose", image: "assets/images/poses/pose-9.png", audio: "assets/audio/9.m4a", sanskrit: "Bhujangasana", description: "Lift chest while prone.", duration: 60 },
-    { id: 10, name: "Happy Baby Pose", image: "assets/images/poses/pose-10.png", audio: "assets/audio/10.m4a", sanskrit: "Ananda Balasana", description: "Hold feet while lying on back.", duration: 60 },
+    { id: 5, name: "Warrior I", image: "assets/images/poses/pose-5.png", audio: "assets/audio/5.m4a", sanskrit: "Virabhadrasana I", description: "High lunge with arms raised.", duration: 120 },
+    { id: 6, name: "Warrior II", image: "assets/images/poses/pose-6.png", audio: "assets/audio/6.m4a", sanskrit: "Virabhadrasana II", description: "Wide stance, arms parallel to floor.", duration: 120 },
+    { id: 7, name: "Tree Pose", image: "assets/images/poses/pose-7.png", audio: "assets/audio/7.m4a", sanskrit: "Vrksasana", description: "Balance on one leg.", duration: 120 },
+    { id: 8, name: "Bridge Pose", image: "assets/images/poses/pose-8.png", audio: "assets/audio/8.m4a", sanskrit: "Setu Bandhasana", description: "Lift hips while lying on back.", duration: 120 },
+    { id: 9, name: "Cobra Pose", image: "assets/images/poses/pose-9.png", audio: "assets/audio/9.m4a", sanskrit: "Bhujangasana", description: "Lift chest while prone.", duration: 120 },
+    { id: 10, name: "Happy Baby Pose", image: "assets/images/poses/pose-10.png", audio: "assets/audio/10.m4a", sanskrit: "Ananda Balasana", description: "Hold feet while lying on back.", duration: 120 },
     { id: 11, name: "Lotus Pose", image: "assets/images/poses/pose-11.png", audio: "assets/audio/11.m4a", sanskrit: "Padmasana", description: "Cross-legged seated meditation.", duration: 120 },
-    { id: 12, name: "Chair Pose", image: "assets/images/poses/pose-12.png", audio: "assets/audio/12.m4a", sanskrit: "Utkatasana", description: "Sit back as if in a chair.", duration: 60 },
-    { id: 13, name: "Triangle Pose", image: "assets/images/poses/pose-13.png", audio: "assets/audio/13.m4a", sanskrit: "Trikonasana", description: "Side stretch with wide legs.", duration: 60 },
-    { id: 14, name: "Pigeon Pose", image: "assets/images/poses/pose-14.png", audio: "assets/audio/14.m4a", sanskrit: "Eka Pada Rajakapotasana", description: "Deep hip opener.", duration: 60 },
-    { id: 15, name: "Plow Pose", image: "assets/images/poses/pose-15.png", audio: "assets/audio/15.m4a", sanskrit: "Halasana", description: "Legs over head while lying on back.", duration: 60 },
-    { id: 16, name: "Corpse Pose", image: "assets/images/poses/pose-16.png", audio: "assets/audio/16.m4a", sanskrit: "Savasana", description: "Deep relaxation lying flat.", duration: 300 },
-    { id: 17, name: "Butterfly Pose", image: "assets/images/poses/pose-17.png", audio: "assets/audio/17.m4a", sanskrit: "Baddha Konasana", description: "Soles of feet together.", duration: 60 },
-    { id: 18, name: "Seated Forward Bend", image: "assets/images/poses/pose-18.png", audio: "assets/audio/18.m4a", sanskrit: "Paschimottanasana", description: "Fold over legs while seated.", duration: 60 },
-    { id: 19, name: "Thread the Needle", image: "assets/images/poses/pose-19.png", audio: "assets/audio/19.m4a", sanskrit: "Parsva Balasana", description: "Twist while on all fours.", duration: 60 }
+    { id: 12, name: "Chair Pose", image: "assets/images/poses/pose-12.png", audio: "assets/audio/12.m4a", sanskrit: "Utkatasana", description: "Sit back as if in a chair.", duration: 120 },
+    { id: 13, name: "Triangle Pose", image: "assets/images/poses/pose-13.png", audio: "assets/audio/13.m4a", sanskrit: "Trikonasana", description: "Side stretch with wide legs.", duration: 120 },
+    { id: 14, name: "Pigeon Pose", image: "assets/images/poses/pose-14.png", audio: "assets/audio/14.m4a", sanskrit: "Eka Pada Rajakapotasana", description: "Deep hip opener.", duration: 120 },
+    { id: 15, name: "Plow Pose", image: "assets/images/poses/pose-15.png", audio: "assets/audio/15.m4a", sanskrit: "Halasana", description: "Legs over head while lying on back.", duration: 120 },
+    { id: 16, name: "Corpse Pose", image: "assets/images/poses/pose-16.png", audio: "assets/audio/16.m4a", sanskrit: "Savasana", description: "Deep relaxation lying flat.", duration: 200 },
+    { id: 17, name: "Butterfly Pose", image: "assets/images/poses/pose-17.png", audio: "assets/audio/17.m4a", sanskrit: "Baddha Konasana", description: "Soles of feet together.", duration: 120 },
+    { id: 18, name: "Seated Forward Bend", image: "assets/images/poses/pose-18.png", audio: "assets/audio/18.m4a", sanskrit: "Paschimottanasana", description: "Fold over legs while seated.", duration: 120 },
+    { id: 19, name: "Thread the Needle", image: "assets/images/poses/pose-19.png", audio: "assets/audio/19.m4a", sanskrit: "Parsva Balasana", description: "Twist while on all fours.", duration: 120 }
 ];
 
 export const articles = [
